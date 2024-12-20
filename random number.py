@@ -4,7 +4,7 @@ def guess_the_number():
     print("Welcome to 'Guess the Number' game!")
     print("I am thinking of a number between 1 and 100. Can you guess it?")
     
-    number_to_guess = random.randint(1, 100)  # Random number between 1 and 100
+    number_to_guess = random.randint(1, 501)  # Random number between 1 and 100
     attempts = 0  # To count the number of guesses
     
     while True:
